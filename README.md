@@ -1,7 +1,7 @@
 ![AI Chatbot Preview](https://drive.google.com/uc?export=view&id=1_JCZ5Oku_tnQnxI_aXBOqxgywylgROYN)
 
 # AI-Chatbot-with-Web-Search
-A Streamlit-based AI chatbot that can answer questions in real-time using both an advanced LLM and live web search. This project integrates LangChain, LangGraph, and ChatGroq to create a responsive assistant capable of retrieving up-to-date information from the web using DuckDuckGo Search
+A Streamlit-based AI chatbot that can answer questions in real-time using both an advanced LLM and live web search. This project integrates LangChain, LangGraph, and ChatGroq to create a responsive assistant capable of retrieving up-to-date information from the web using DuckDuckGo Search. [Try AI Chatbot live](https://ai-chatbot-with-web-search.streamlit.app/)
 ## Features
 - **Real-time web search**: Provides accurate answers by querying the web when needed.  
 - **Advanced language model**: Powered by `llama-3.3-70b-versatile` via ChatGroq.  
@@ -33,7 +33,10 @@ A Streamlit-based AI chatbot that can answer questions in real-time using both a
    ```bash
     streamlit run app.py
    ```
+## Use the Chatbot Live
 
+You can try the chatbot directly in your browser without installing anything:
+[AI Chatbot live](https://ai-chatbot-with-web-search.streamlit.app/)
 ## License
 
 This project is open-source and available under the MIT License
